@@ -11,6 +11,7 @@ int insert (int n, int m[])
      printf("enter position\n");
      scanf("%d",&pos);
      printf("enter element\n");
+     scanf("%d",&element);
      for (i=n; i>=pos; i--) 
      {
           m[i] = m[i-1];
